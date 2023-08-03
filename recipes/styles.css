@@ -19,3 +19,9 @@ body {
 h1 {
     font-size: 35px;
 }
+
+.hr {
+    color: black;
+    border-color: none;
+    
+}
