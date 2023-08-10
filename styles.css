@@ -1,19 +1,40 @@
 * {
     line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-    background-color: bisque;
+    background-color: peachpuff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.menu-container {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: royalblue;  /* Blue */
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.login {
+  margin-left: 20px;
+}
+
 .heading {
-    align-items: center;
-}
-.images {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-h1 {
-    font-size: 35px;
+  font-weight: 10px;
 }
